@@ -1,0 +1,81 @@
+html, body, .content{
+    overflow: hidden;
+}
+
+#login{
+    background-image: url("http://localhost/itfest-hack/front/assets/img/back.jpg");
+}
+
+#no-team {
+    background-image: url("http://localhost/itfest-hack/front/assets/img/back.jpg");
+}
+
+
+.max-height{
+    min-height: 85vh;
+    max-height: 90vh;
+}
+
+.panel{
+    padding: 20px;
+    text-align:center;
+    overflow-y: scroll;
+}
+
+.card-body{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.card{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: whitesmoke;
+}
+
+.panel-title{
+    text-align: center;
+}
+
+.nav-element{
+    cursor: pointer;
+}
+
+.nav-element:hover{
+    padding:30px !important;
+}
+
+
+.login-card{
+    float: none;
+    margin: 0 auto;
+    cursor: default;
+    margin-top:20vh;
+}
+
+.login-card:hover{
+    background-color: white;
+}
+
+.login-card input{
+    display: block;
+}
+
+.layout{
+    display: none;
+}
+
+.line{
+    margin: 0 auto;
+    margin-top: 20px;
+    display:block;
+}
+
+.form-control{
+    margin-top: 10px;
+}
